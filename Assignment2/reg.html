@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>International Conference </title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+	.centre {
+			text-align: center;
+		}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}  
+    </style>
+
+  </head>
+
+  <body background="bg1.jpg">
+    
+    <header>
+      <h1 style="color:red;text-align:center;" title="Header"> <img src= "logo.jpg" alt="logo" width="30" height="30">  International conference on World Peace </h1>
+    </header>
+    <h3 title="Greetings">Welcome to International confernce on world peace...</h3>
+    <nav class="centre">
+    <a href="index.html" title="Takes to home"> Home </a>|
+		<a href="committee.html" title="Committee Members" > Committee </a>|
+		<a href="cfp.html" title="Call for papers" > Call for Papers </a>|
+		<a href="imp_dates.html" title="Upcoming Important Dates" > Important Dates </a>|
+		<a href="workshops.html" title="Show Workshops" > Workshops </a>|
+		<a href="reg.html" title = "NEW! register here" > Registration </a>|
+		<a href="contact.html" title="Help! contacts here" > Contact </a>
+    </nav>
+    <br>
+    <form>
+    <label for="fname">Name:</label><br><br>
+    <input type="text" id="fname" name="fname" value="First">
+    <input type="text" id="lname" name="lname" value="Last"><br><br>
+    <label for="gender">Gender:</label><br><br>
+    <select id="gender" name="gender">
+    <option value="Select">Select</option>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select>
+    <br><br>
+    <label for="mail">Mail ID:</label><br><br>
+    <input type="text" id="mail" name="mail"><br><br>
+    <label for="consent">Do you consent to having your pictures taken and published? </label><br><br>
+    <input type="radio" id="yes" name="consent" value="yes">
+    <label for="male">Yes</label><br>
+    <input type="radio" id="no" name="consent" value="no">
+    <label for="female">No</label><br><br>
+    <input type="submit" value="Submit">
+    </form> 
+    <footer>
+      <p style="color:red;">Developed using HTML5</p>
+      <p title="mail here for any help"><a href="mailto:helpline@conf.com">helpline@conf.com</a></p>
+    </footer>
+    
+	</body>
+</html>
